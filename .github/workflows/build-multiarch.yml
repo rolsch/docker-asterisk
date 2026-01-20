@@ -1,6 +1,7 @@
 name: Build & Push Multi-Arch Docker Images
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "master" ]
     tags:
