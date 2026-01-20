@@ -141,7 +141,7 @@ FROM	base AS full
 # Copy patent-encumbered codecs to image
 #
 
-COPY	sub/*/module $DOCKER_DL_DIR/
+#COPY	sub/*/module $DOCKER_DL_DIR/
 
 #
 # Install packages supporting audio
